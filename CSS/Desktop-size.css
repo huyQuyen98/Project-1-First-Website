@@ -1,0 +1,164 @@
+@media only screen and (min-width: 992px) {
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      [class*="col-dt-"] {
+        float: left;
+        padding: 15px;
+      }
+      
+      .col-dt-1 {width: 8.33%;}
+      .col-dt-2 {width: 16.66%;}
+      .col-dt-3 {width: 25%;}
+      .col-dt-4 {width: 33.33%;}
+      .col-dt-5 {width: 41.66%;}
+      .col-dt-6 {width: 50%;}
+      .col-dt-7 {width: 58.33%;}
+      .col-dt-8 {width: 66.66%;}
+      .col-dt-9 {width: 75%;}
+      .col-dt-10 {width: 83.33%;}
+      .col-dt-11 {width: 91.66%;}
+      .col-dt-12 {width: 100%;}
+  .menu:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    list-style: 0;
+    visibility: hidden; 
+  }
+  
+  .menu-list-left {
+    list-style: none;
+    margin-left: 2%;
+   }
+  
+  .menu-list-right {
+   list-style: none;
+   margin-right: 2%;
+  }
+
+  .menu-list-left li {
+    display: inline-block;
+    font-size: 12px; 
+  }
+
+  .menu-list-left li a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  .menu-list-right li {
+    display: inline-block;
+    font-size: 12px; 
+  }
+
+  .menu-list-right li a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+
+  .menu-list-left .list-left {
+    float: left;
+  }
+  
+  .list-right {
+    float: right;
+  }
+
+.banner { 
+    margin-top: 10px;
+    background-image: url("../Image/tsbanner.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.banner .banner-text {
+    color: white; 
+    top: 30%;
+    left: 5%;
+    position: absolute;
+}
+
+.banner-text p {   
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.banner-text h1{
+  font-weight: bold;
+  font-size: 200%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner {
+    padding: 15px;
+}
+
+.gallery {
+    background-color: rgb(226, 226, 226);
+    color: rgb(83, 83, 83); 
+}
+
+.gallery::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.gallery h2 {    
+    padding: 0px;
+    text-align: center;
+    font-size: 120%;
+}
+
+div.picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:100%;
+}
+
+.picture img:first-child {
+    margin-bottom: 30px;
+}
+
+.picture img {
+    transition: all 1s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+
+.picture img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.footer {
+    background-color:lavenderblush;
+    color: rgb(83, 83, 83);   
+}
+
+.footer::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+
+}

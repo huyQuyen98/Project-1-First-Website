@@ -1,0 +1,25 @@
+* {            
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 300%;
+    text-align: center;
+}
+.den1 {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p {
+    text-indent: 35px;
+    vertical-align: bottom;
+}

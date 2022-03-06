@@ -1,0 +1,132 @@
+@media only screen and (max-width: 768px) {
+        .container::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+      
+      [class*="col-"] {
+        float: left;
+        padding: 15px;
+      }
+
+[class*="col-"] {
+    width: 100%;
+}
+
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
+
+.menu {
+    background-color:lavenderblush;
+    height: 80px;
+    padding-top: 35px;
+}
+
+.menu:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    list-style: 0;
+    visibility: hidden; 
+}
+
+.menu-list-left,
+.menu-list-right {
+   list-style: none;
+}
+
+.menu-list-left li,
+.menu-list-right li {
+    display: inline-block;
+    font-size: 10px; 
+}
+
+.menu-list-left li a,
+.menu-list-right li a {
+    text-transform: uppercase;
+    color:grey;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.menu-list-left .list-left {
+    float: left;
+}
+
+.list-right {
+    float: right;
+}
+
+.banner {
+    padding: 15px;
+}
+
+.banner-text h1 {
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.gallery {
+    background-color: rgb(226, 226, 226);
+    color: rgb(83, 83, 83); 
+}
+
+.gallery::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.gallery h2 {    
+    padding: 0px;
+}
+
+div.picture img {
+    width: 100%;
+    height: auto;
+}
+
+.picture img:first-child {
+    margin-bottom: 30px;
+}
+
+.picture img {
+    transition: all 1s;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.picture img:hover {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.footer {
+    background-color: rgb(219, 219, 219);
+    color: rgb(83, 83, 83);
+}
+
+.footer::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(0, 149, 255);
+}
+
+}
